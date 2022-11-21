@@ -1,0 +1,49 @@
+
+
+body {
+    background-color:black;
+}
+
+#profildroite {
+    float:right;
+    padding-right:420px;
+}
+
+
+section.container div.gauche{
+    width: 60%;
+}
+
+section.container div.droite{
+    position: absolute;
+    right: 0px;
+    top:0px;
+    padding: 10px;
+    width: 30%;
+    height: 98.7%;
+    background-color:darkcyan;
+    border-radius: 0 50px 50px 0;  
+    
+}
+
+.container {
+    max-width: 1000px;
+    width: 90%;
+    margin: 10px auto;
+    gap: 10px;
+    display: inline-block; 
+    padding: 5em; 
+    background-color:azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 50px 50px 50px 50px; 
+    filter: drop-shadow(0 -6mm 4mm rgb(54, 215, 255));
+}
+
+div.profil > h1 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+}
+
+h2 {
+    color: cornflowerblue;
+}
